@@ -113,26 +113,12 @@
                         <div class="col d-flex">
                             <div class="card flex-fill shadow-sm p-3">
                                 <div class="card-body d-flex flex-column">
-                                    <h5 class="card-title text-primary fw-bold">포켓트윈(P2K) 라이브 운영 - 긴급 이슈 대응 및 이벤트 지원</h5>
+                                    <h5 class="card-title text-primary fw-bold">게임 서비스 라이브 운영 - 긴급 이슈 대응 및 이벤트 지원</h5>
                                     <h6 class="card-subtitle mb-2 text-muted">cocone engineering <small>(2024.10 ~ )</small></h6>
                                     <ul class="mb-0">
-                                        <li>요약
-                                            <ul>
-                                                <li>이벤트 운영 시 발생한 긴급 이슈를 신속하게 해결하여 안정적인 라이브 운영을 지원</li>
-                                            </ul>
-                                        </li>
-                                        <li>배경
-                                            <ul>
-                                                <li>크리스마스 및 연말 이벤트 기간 동안 데이터 누락 및 긴급 이슈가 발생하여 즉각적인 대응 필요</li>
-                                            </ul>
-                                        </li>
-                                        <li>해결 전략
-                                            <ul>
-                                                <li>데이터 검수 및 오류 분석을 통해 신속하게 대응, 이벤트가 정상적으로 운영될 수 있도록 지원.</li>
-                                                <li>긴급 이슈(NPC 의상 변경 자동화 오류) 발생 시, 즉각적인 패치 적용 및 운영팀과 협업하여 3분 내 해결.</li>
-                                                <li>이벤트 대상 유저 데이터를 추출하여 운영팀이 원활하게 대응할 수 있도록 지원.</li>
-                                            </ul>
-                                        </li>
+                                        <li>데이터 검수 및 오류 분석을 통해 신속하게 대응, 이벤트가 정상적으로 운영될 수 있도록 지원.</li>
+                                        <li>긴급 이슈(NPC 의상 변경 자동화 오류) 발생 시, 즉각적인 패치 적용 및 운영팀과 협업하여 3분 내 해결.</li>
+                                        <li>이벤트 대상 유저 데이터를 추출하여 운영팀이 원활하게 대응할 수 있도록 지원.</li>
                                         <li>결과
                                             <ul>
                                                 <li>이벤트 데이터 누락 없이 정상적으로 라이브 서비스 운영.</li>
@@ -196,13 +182,15 @@
                                         </li>
                                         <li>해결 전략
                                             <ul>
-                                                <li>Atlas Search 인덱스를 최적화하여 한국어 검색 성능 향상.</li>
-                                                <li>검색 성능 개선을 위해 Analyzer 설정을 수정하고, 검색 효율성을 높임.</li>
+                                                <li>운영팀이 가챠 테마 ID만 입력하면 자동으로 데이터를 불러오는 업로드 기능 개발.</li>
+                                                <li>기존 수동 작업에서 발생하는 인적 오류를 방지할 수 있도록 데이터 검증 로직 추가.</li>
                                             </ul>
                                         </li>
                                         <li>결과
                                             <ul>
-                                                <li>검색 기능 최적화로 한국어 검색 정확도 및 속도 개선.</li>
+                                                <li>가챠 데이터 등록 시간을 대폭 단축.</li>
+                                                <li>수작업에서 발생하던 오류 방지 및 정확도 향상.</li>
+                                                <li>운영팀이 CMS를 활용하여 데이터 관리 효율성 극대화.</li>
                                             </ul>
                                         </li>
                                     </ul>
@@ -213,7 +201,7 @@
                         <div class="col d-flex">
                             <div class="card flex-fill shadow-sm p-3">
                                 <div class="card-body d-flex flex-column">
-                                    <h5 class="card-title text-primary fw-bold">포켓트윈(P2K) 그랜드 론칭 - 서비스 로컬라이징 및 마스터데이터 셋팅</h5>
+                                    <h5 class="card-title text-primary fw-bold">서비스 로컬라이징 및 마스터데이터 셋팅</h5>
                                     <h6 class="card-subtitle mb-2 text-muted">cocone engineering <small>(2024.08 ~ 2024.10)</small></h6>
                                     <ul class="mb-0">
                                         <li>요약
@@ -223,7 +211,7 @@
                                         </li>
                                         <li>배경
                                             <ul>
-                                                <li>P2K 글로벌 론칭을 위해 일본어 기반 데이터를 다국어로 변환해야 했으며, 수작업으로 번역 및 등록하는 방식은 비효율적이고 오류 가능성이 높음.</li>
+                                                <li>서비스 글로벌 론칭을 위해 일본어 기반 데이터를 다국어로 변환해야 했으며, 수작업으로 번역 및 등록하는 방식은 비효율적이고 오류 가능성이 높음.</li>
                                             </ul>
                                         </li>
                                         <li>해결 전략
@@ -238,6 +226,101 @@
                                                 <li>번역 데이터 자동화로 운영팀의 번역 및 등록 부담 감소.</li>
                                                 <li>다국어 처리 기능 추가로 글로벌 서비스 확장성을 확보.</li>
                                                 <li>CMS 로컬라이징 기능 개선으로 번역된 데이터를 쉽게 관리 가능.</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- AISpera 1 -->
+                        <div class="col d-flex">
+                            <div class="card flex-fill shadow-sm p-3">
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title text-primary fw-bold">ElasticSearch 서버 관리 및 MySQL 쿼리 지원 및 유지보수</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">AISpera <small>(2022.04 ~ 2022.09)</small></h6>
+                                    <ul class="mb-0">
+                                        <li>MySQL-RDB와 ElasticSearch 간의 데이터 동기화 데몬을 리팩토링하여 성능 개선.</li>
+                                        <li>ElasticSearch 검색 쿼리를 최적화하여 검색 응답 속도를 개선.
+                                            <ul>
+                                                <li>도큐먼트 50,000개당 310초 → 20초</li>
+                                                <li>도큐먼트 1,000,000개당 측정 불가 → 162초</li>
+                                            </ul>
+                                        </li>
+                                        <li>Elasticsearch 서버의 스케일 업/아웃을 통해 대량 데이터 처리 성능 향상.</li>
+                                        <li>신규 필드 추가 및 인덱스 개선 작업을 통해 검색 성능 개선 및 확장성 확보.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- AISpera 2 -->
+                        <div class="col d-flex">
+                            <div class="card flex-fill shadow-sm p-3">
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title text-primary fw-bold">CIP B2C RMR API 및 Batch 알고리즘 개발</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">AISpera <small>(2021.12 ~ 2022.08)</small></h6>
+                                    <ul class="mb-0">
+                                        <li>하나의 Domain에 대한 연관된 IP/Domain 탐지 batch 알고리즘 개발 및 성능개선
+                                            <ul>
+                                                <li>하루 n개 정도의 domain을 스캔 가능할정도로 성능 개선되어 고객 4사에 서비스</li>
+                                            </ul>
+                                        </li>
+                                        <li>IP 포트 스캔 batch 알고리즘 개발</li>
+                                        <li>자산 통계 (Dashboard) API 개발</li>
+                                        <li>고객의 IP/Domain 자산에 대한 CRUD API 개발</li>
+                                        <li>IP/Domain 자산에 대한 Risk 탐지 API 개발</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- AISpera 3 -->
+                        <div class="col d-flex">
+                            <div class="card flex-fill shadow-sm p-3">
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title text-primary fw-bold">기존 방식(nmap)으로 수집 불가하던 배너 정보 수집</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">AISpera <small>(2021.07 ~ 2021.11)</small></h6>
+                                    <ul class="mb-0">
+                                        <li>보안 위협 감지를 위한 데이터 수집이 필요했으며, 특정 포트(500/4500)를 사용하는 장비(예: IP Camera, Router 등)의 배너 정보를 효과적으로 수집해야 했음. 기존 수집 방식의 한계를 극복하고, 정확한 데이터를 얻기 위한 새로운 접근 방식이 요구됨.</li>
+                                        <li>배너 정보 수집 정확도 향상 (Lua NSE 스크립트 수정 및 패킷 캡처 도입)
+                                            <ul>
+                                                <li>기존 nmap 스크립트의 한계를 극복하기 위해 Lua NSE 스크립트를 수정하여 배너 정보 수집 정확도를 향상시킴.</li>
+                                                <li>Wireshark(Tshark) 활용한 패킷 캡처 기법 도입 → 일부 포트에서 직접 패킷을 분석하여, 기존 방식으로는 수집 불가능했던 데이터를 확보.</li>
+                                            </ul>
+                                        </li>
+                                        <li>기존 방식보다 정확도 높은 데이터 수집 가능 → 기존 방식에서 누락되던 포트 배너 정보를 확보.</li>
+                                        <li>Lua(nse) 스크립트 최적화를 통해 nmap 기반 스캔 성능 향상 및 데이터 누락 문제 해결.</li>
+                                        <li>패킷 캡쳐 기반 수집 방식 도입으로 더 많은 데이터를 빠르고 정밀하게 수집할 수 있도록 개선(HTTP 사용 Device 정보(IP Camera, Router 등) 수집)</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- AISpera 4 -->
+                        <div class="col d-flex">
+                            <div class="card flex-fill shadow-sm p-3">
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title text-primary fw-bold">python 멀티 프로세싱을 이용한 배너 수집 주기 단축</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">AISpera <small>(2021.07 ~ 2021.11)</small></h6>
+                                    <ul class="mb-0">
+                                        <li>기존 시스템은 수집 속도가 매우 느리고, 일부 포트에서 배너 정보가 누락되는 문제가 있었음. 또한, 수집 주기가 너무 길어(최대 60일), 최신 보안 위협을 신속히 반영하기 어려운 상황</li>
+                                        <li>Python 멀티프로세싱 활용한 수집 속도 최적화
+                                            <ul>
+                                                <li>기존 방식으로는 Subnetmask 8대역(A클래스) 수집에 60일이 소요, 멀티프로세싱을 통해 병렬로 처리하여 속도 개선.</li>
+                                                <li>Python multiprocessing 도입 → 프로세스 단위 병렬 처리로 속도 개선.</li>
+                                                <li>디스크 I/O 과부하 문제 해결 → 기존에는 데이터를 수집할 때마다 파일을 생성·삭제하여 디스크 사용량이 과도했음. 이를 RAM 기반 처리로 전환하여 CPU IOWait 문제를 해결.</li>
+                                                <li>Nmap 자체 멀티프로세싱과의 충돌 방지 → Nmap 공식 문서에서 100개 이상의 프로세스 실행 시 오히려 성능이 저하된다는 점을 확인. 실행 중인 Nmap 프로세스를 모니터링하여 최적의 병렬 개수 유지.</li>
+                                            </ul>
+                                        </li>
+                                        <li>Python 멀티프로세싱 활용한 수집 속도 최적화
+                                            <ul>
+                                                <li>여러 수집 옵션을 실험하기 위해 Crontab + Bash 스크립트를 활용한 자동화 테스트 시스템 구축.</li>
+                                                <li>주말 동안 자동으로 테스트 실행 후, 월요일에 결과 분석 가능하도록 설정.</li>
+                                                <li>Slack 봇을 활용한 실시간 알림 시스템 구축 → 오류 발생 시 즉시 Slack으로 알림을 전송하여 문제를 신속히 파악하고 대응.</li>
+                                            </ul>
+                                        </li>
+                                        <li>결과
+                                            <ul>
+                                                <li>여러 수집 옵션을 실험하기 위해 Crontab + Bash 스크립트를 활용한 자동화 테스트 시스템 구축.</li>
+                                                <li>주말 동안 자동으로 테스트 실행 후, 월요일에 결과 분석 가능하도록 설정.</li>
+                                                <li>Slack 봇을 활용한 실시간 알림 시스템 구축 → 오류 발생 시 즉시 Slack으로 알림을 전송하여 문제를 신속히 파악하고 대응.</li>
                                             </ul>
                                         </li>
                                     </ul>
