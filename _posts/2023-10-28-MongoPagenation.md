@@ -2,8 +2,8 @@
 title: MongoDB Pagenation 성능 개선을 위한 전략
 author: youngDaLee
 date: 2025-07-27 05:12:00 +0900
-categories: [ETC]
-tags: [후기,컨퍼런스,TMC]
+categories: [DB]
+tags: [MongoDB,성능개선]
 ---
 
 > 이 글은 2023년 10월 [Velog](https://velog.io/@youngda/MongoDB-Pagenation-%EC%84%B1%EB%8A%A5-%EA%B0%9C%EC%84%A0%EC%9D%84-%EC%9C%84%ED%95%9C-%EC%A0%84%EB%9E%B5)에 작성했던 글 입니다
