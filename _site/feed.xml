@@ -1,0 +1,95 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://localhost:4000/</id>
+  <title>DaY.log</title>
+  <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
+  <updated>2025-07-27T03:32:18+09:00</updated>
+  <author>
+    <name>youngDaLee</name>
+    <uri>http://localhost:4000/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="http://localhost:4000/"/>
+  <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
+  <rights> © 2025 youngDaLee </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>DaY.log 시작</title>
+    <link href="http://localhost:4000/posts/First/" rel="alternate" type="text/html" title="DaY.log 시작" />
+    <published>2025-07-27T03:30:00+09:00</published>
+  
+    <updated>2025-07-27T03:30:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/First/</id>
+    <content type="text/html" src="http://localhost:4000/posts/First/" />
+    <author>
+      <name>youngDaLee</name>
+    </author>
+
+  
+    
+    <category term="ETC" />
+    
+  
+
+  <summary>Google I/O Extended Incheon 2025 에서 카일님 강의 듣고 뽕차서 깃허브 블로그를 팠다.  강의에서</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Toss Makers Conference 25 Engineering Day 후기</title>
+    <link href="http://localhost:4000/posts/TMC25/" rel="alternate" type="text/html" title="Toss Makers Conference 25 Engineering Day 후기" />
+    <published>2025-07-25T02:25:00+09:00</published>
+  
+    <updated>2025-07-25T02:25:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/TMC25/</id>
+    <content type="text/html" src="http://localhost:4000/posts/TMC25/" />
+    <author>
+      <name>youngDaLee</name>
+    </author>
+
+  
+    
+    <category term="ETC" />
+    
+  
+
+  <summary>운좋게도 토스 메이커스 2025 컨퍼런스 엔지니어링 데이에 참석했습니다.   들었던 세션 중 인상깊었던 내용, 들으면서 작성했던 내용들을 공유하고자 합니다.    기억에 남는 것  + Action Plan  작성한 내용 20년 레거시를 넘어 미래를 준비하는 시스템 만들기    레거시 시스템 및 인프라 제약에 영향받지 않는 환경 만들기   인프라 -&amp;gt; AWS 사용   단계적 시스템 개선   현장결제 서비스의 분산 트랜잭션 관리학 개론  수천 개의 API/BATCH 서버를 하나의 설정 체계로 관리하기  가맹점은 변함없이, 결제창 시스템 전면 재작성하기  당신은 이미 팀을 최적화하고있다  중앙에서 Data Mesh로: Data Ownership 강화를 위한 변화  레거시 정산 개편기: 신규 시스템 투입...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Google I/O Extended Incheon 2025 후기</title>
+    <link href="http://localhost:4000/posts/GDC25/" rel="alternate" type="text/html" title="Google I/O Extended Incheon 2025 후기" />
+    <published>2025-07-25T02:25:00+09:00</published>
+  
+    <updated>2025-07-25T02:25:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/GDC25/</id>
+    <content type="text/html" src="http://localhost:4000/posts/GDC25/" />
+    <author>
+      <name>youngDaLee</name>
+    </author>
+
+  
+    
+    <category term="ETC" />
+    
+  
+
+  <summary>스터디 인연으로 Google I/O Extended Incheon 컨퍼런스에 다녀왔습니다.  기대했던 것 이상으로 너무나도 유익한 내용이 많았고, 무엇보다 제가 요즘 하던 고민들에 대한 답을 내릴 수 있어서 감사했던 자리였습니다.  기억에 남는 것     1인 개발 서비스를 위한 Gemini CIL 사용기        Gemini 개발자 버전 1년 플랜이 생각보다 가성비가 좋다         기여 사례로 알아보는 오픈소스 입문        기여하기 좋은 프로젝트 = 살아있는 프로젝트 = 이슈가 많고, 외부인의 PR이 많으며, 라벨링 잘 되고 관리 잘 되어 있는 프로젝트     첫 시작은 아주 간단한 것 부터 (잘 찾다보면 이슈 자체에 해결책이 명시되어 있는 이슈들도 있음)     회귀테스트를 잘 쓰자 ...</summary>
+
+  </entry>
+
+</feed>
+
+
