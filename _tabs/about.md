@@ -65,6 +65,13 @@ Vue.js
 Flask
 </span>
 
+## 💼 Experience
+
+| 기간 | 회사명 | 직무 | 업무 내용 |
+|-----|------|-----|---------|
+| 2022.10 ~  | Cocone Enginering Korea | Software Engineer | 주업무 :: 다양한 서비스의 서버/CMS 개발 및 유지보수<br>글로벌 론칭 및 이벤트 운영을 지원하며, 라이브 서비스 운영 및 긴급 이슈 대응<br>CMS 개발 및 기능 개선, 데이터 등록 프로세스 개선 |
+| 2021.07 ~ 2022.09 | AISpera | Data Engineer / DBA | 주업무 :: IP B2C RMR API 개발 및 ElasticSearch 6.8 운영<br>고객 자산 스캔 batch 개발 및 성능 개선<br>python 멀티 프로세싱을 이용한 배너 수집 주기 단축<br>RDB(MySQL)-ES 동기화 batch (매일 2억여건 row 규모) 유지보수 및 성능개선 |
+| 2020.03 ~ 2021.07 | 인헌고등학교 | 컴퓨터수학반 동아리 강사 | 파이썬 기초 및 알고리즘 교육 |
 
 ## ✅ Activities
 
