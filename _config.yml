@@ -120,9 +120,9 @@ comments:
   # Giscus options › https://giscus.app
   giscus:
     repo: youngDaLee/youngdalee.github.io # <gh-username>/<repo>
-    repo_id: R_kgDOHC5Ppg
+    repo_id: R_kgDOPTR1Jw
     category: Comments
-    category_id: DIC_kwDOHC5Pps4CtcEm
+    category_id: DIC_kwDOPTR1J84Ctc4a
     mapping: # optional, default to 'pathname'
     strict: # optional, default to '0'
     input_position: # optional, default to 'bottom'
