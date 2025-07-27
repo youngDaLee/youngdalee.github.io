@@ -70,11 +70,42 @@ Flask
 ## 💻 Projects
 > 경력: 4년 0개월
 
-<div style="display: flex; flex-wrap: wrap; gap: 1rem;">
-
-<div style="width: calc(50% - 0.5rem); border: 1px solid #ccc; border-radius: 1rem; padding: 1rem;">
-  <p style="font-size: 1.15rem; color: #2b6cb0; font-weight: bold;margin:0;">게임 서비스 라이브 운영</p>
-  <p style="font-size: 0.75rem;font-weight: bold;color: gray;margin: 0;">Cocone Engineering (2024.10 ~ )</p>
+<style>
+  .card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.card-item {
+  border: 1px solid #ccc;
+  border-radius: 1rem;
+  padding: 1rem;
+  /* 모바일 기본: 1열 */
+  flex: 1 1 100%;
+}
+/* 데스크탑: 2열 */
+@media (min-width: 768px) {
+  .card-item {
+    flex: 1 1 45%;
+  }
+}
+.card-title {
+  font-size: 1.15rem;
+  color: #2b6cb0;
+  font-weight: bold;
+  margin:0;
+}
+.card-subtitle {
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: gray;
+  margin: 0;
+}
+</style>
+<div class="card-container">
+<div class="card-item">
+  <p class="card-title">게임 서비스 라이브 운영</p>
+  <p class="card-subtitle">Cocone Engineering (2024.10 ~ )</p>
   <p>
     <b>요약:</b><br>
     데이터 검수 및 오류 분석을 통해 신속하게 대응, 이벤트가 정상적으로 운영될 수 있도록 지원<br>
@@ -88,9 +119,9 @@ Flask
   </p>
 </div>
 
-<div style="width: calc(50% - 0.5rem); border: 1px solid #ccc; border-radius: 1rem; padding: 1rem;">
-  <p style="font-size: 1.15rem; color: #2b6cb0; font-weight: bold;margin:0;">커뮤니티 데이터 슬로우 쿼리 개선</p>
-  <p style="font-size: 0.75rem;font-weight: bold;color: gray;margin: 0;">Cocone Engineering (2024.11)</p>
+<div class="card-item">
+  <p class="card-title">커뮤니티 데이터 슬로우 쿼리 개선</p>
+  <p class="card-subtitle">Cocone Engineering (2024.11)</p>
   <p>
     <b>요약:</b><br>
     Atlas Search 인덱스를 추가하여 한국어 검색 성능을 최적화<br>
@@ -101,9 +132,9 @@ Flask
   </p>
 </div>
 
-<div style="width: calc(50% - 0.5rem); border: 1px solid #ccc; border-radius: 1rem; padding: 1rem;">
-  <p style="font-size: 1.15rem; color: #2b6cb0; font-weight: bold;margin:0;">데이터 등록 프로세스 자동화</p>
-  <p style="font-size: 0.75rem;font-weight: bold;color: gray;margin: 0;">Cocone Engineering (2024.12)</p>
+<div class="card-item">
+  <p class="card-title">데이터 등록 프로세스 자동화</p>
+  <p class="card-subtitle">Cocone Engineering (2024.12)</p>
   <p>
     <b>요약:</b><br>
     가챠 데이터 업로드 자동화를 통해 운영팀의 수작업 부담을 줄이고, 데이터 등록의 정확도를 높임<br>
@@ -118,9 +149,9 @@ Flask
   </p>
 </div>
 
-<div style="width: calc(50% - 0.5rem); border: 1px solid #ccc; border-radius: 1rem; padding: 1rem;">
-  <p style="font-size: 1.15rem; color: #2b6cb0; font-weight: bold;margin:0;">서비스 로컬라이징 및 마스터데이터 셋팅</p>
-  <p style="font-size: 0.75rem;font-weight: bold;color: gray;margin: 0;">Cocone Engineering (2024.08 ~ 2024.10)</p>
+<div class="card-item">
+  <p class="card-title">서비스 로컬라이징 및 마스터데이터 셋팅</p>
+  <p class="card-subtitle">Cocone Engineering (2024.08 ~ 2024.10)</p>
   <p>
     번역 우선순위 설정 및 자동화된 마스터데이터 등록 프로세스 구축<br>
     CMS에서 다국어 번역 및 관리 기능 개선<br>
@@ -129,9 +160,9 @@ Flask
 </div>
 
 <!-- 카드 5 -->
-<div style="width: calc(50% - 0.5rem); border: 1px solid #ccc; border-radius: 1rem; padding: 1rem;">
-  <p style="font-size: 1.15rem; color: #2b6cb0; font-weight: bold;margin:0;">CMS 개선 작업</p>
-  <p style="font-size: 0.75rem;font-weight: bold;color: gray;margin: 0;">Cocone Engineering (2024.01 ~ 2024.06)</p>
+<div class="card-item">
+  <p class="card-title">CMS 개선 작업</p>
+  <p class="card-subtitle">Cocone Engineering (2024.01 ~ 2024.06)</p>
   <p>
     아이템 등록 및 레시피 추천 기능 추가로 운영 효율성 향상<br>
     번역 데이터를 DB 기반으로 전환하여 데이터 정합성 강화<br>
@@ -140,9 +171,9 @@ Flask
 </div>
 
 <!-- 카드 6 -->
-<div style="width: calc(50% - 0.5rem); border: 1px solid #ccc; border-radius: 1rem; padding: 1rem;">
-  <p style="font-size: 1.15rem; color: #2b6cb0; font-weight: bold;margin:0;">아이템 납품 자동화 스크립트</p>
-  <p style="font-size: 0.75rem;font-weight: bold;color: gray;margin: 0;">Cocone Engineering (2023.09 ~ 2023.10)</p>
+<div class="card-item">
+  <p class="card-title">아이템 납품 자동화 스크립트</p>
+  <p class="card-subtitle">Cocone Engineering (2023.09 ~ 2023.10)</p>
   <p>
     PNG → SIA 변환 자동화 및 썸네일 자동 등록 기능 개발<br>
     기존 납품 프로세스를 자동화하여 운영팀의 수작업 제거<br>
@@ -150,9 +181,9 @@ Flask
 </div>
 
 <!-- 카드 7 -->
-<div style="width: calc(50% - 0.5rem); border: 1px solid #ccc; border-radius: 1rem; padding: 1rem;">
-  <p style="font-size: 1.15rem; color: #2b6cb0; font-weight: bold;margin:0;">AI 팔레트 공방 개발</p>
-  <p style="font-size: 0.75rem;font-weight: bold;color: gray;margin: 0;">Cocone Engineering (2023.04 ~ 2023.08)</p>
+<div class="card-item">
+  <p class="card-title">AI 팔레트 공방 개발</p>
+  <p class="card-subtitle">Cocone Engineering (2023.04 ~ 2023.08)</p>
   <p>
     CMS 상태값 가시성 개선 및 주문 관리 UI 개발<br>
     실시간 피드 및 찜 기능 추가<br>
@@ -161,9 +192,9 @@ Flask
 </div>
 
 <!-- 카드 8 -->
-<div style="width: calc(50% - 0.5rem); border: 1px solid #ccc; border-radius: 1rem; padding: 1rem;">
-  <p style="font-size: 1.15rem; color: #2b6cb0; font-weight: bold;margin:0;">MongoDB 운영</p>
-  <p style="font-size: 0.75rem;font-weight: bold;color: gray;margin: 0;">Cocone Engineering (2022.10 ~ 2023.03)</p>
+<div class="card-item">
+  <p class="card-title">MongoDB 운영</p>
+  <p class="card-subtitle">Cocone Engineering (2022.10 ~ 2023.03)</p>
   <p>
     MongoDB sharded cluster 및 Redis 운영<br>
     AWS RDS MariaDB 설정 및 튜닝<br>
@@ -172,9 +203,9 @@ Flask
 </div>
 
 <!-- 카드 9 -->
-<div style="width: calc(50% - 0.5rem); border: 1px solid #ccc; border-radius: 1rem; padding: 1rem;">
-  <p style="font-size: 1.15rem; color: #2b6cb0; font-weight: bold;margin:0;">ElasticSearch 서버 관리</p>
-  <p style="font-size: 0.75rem;font-weight: bold;color: gray;margin: 0;">AISpera (2022.04 ~ 2022.09)</p>
+<div class="card-item">
+  <p class="card-title">ElasticSearch 서버 관리</p>
+  <p class="card-subtitle">AISpera (2022.04 ~ 2022.09)</p>
   <p>
     MySQL-ES 동기화 개선 및 검색 쿼리 성능 최적화<br>
     ES 스케일 업/아웃, 신규 필드 추가로 확장성 확보<br>
@@ -182,9 +213,9 @@ Flask
 </div>
 
 <!-- 카드 10 -->
-<div style="width: calc(50% - 0.5rem); border: 1px solid #ccc; border-radius: 1rem; padding: 1rem;">
-  <p style="font-size: 1.15rem; color: #2b6cb0; font-weight: bold;margin:0;">RMR API 및 Batch 개발</p>
-  <p style="font-size: 0.75rem;font-weight: bold;color: gray;margin: 0;">AISpera (2021.12 ~ 2022.08)</p>
+<div class="card-item">
+  <p class="card-title">RMR API 및 Batch 개발</p>
+  <p class="card-subtitle">AISpera (2021.12 ~ 2022.08)</p>
   <p>
     IP/Domain 기반 위험 탐지 API 및 통계 API 개발<br>
     Batch 처리 알고리즘으로 성능 개선 및 실제 서비스 도입<br>
@@ -192,9 +223,9 @@ Flask
 </div>
 
 <!-- 카드 11 -->
-<div style="width: calc(50% - 0.5rem); border: 1px solid #ccc; border-radius: 1rem; padding: 1rem;">
-  <p style="font-size: 1.15rem; color: #2b6cb0; font-weight: bold;margin:0;">배너 정보 수집 개선</p>
-  <p style="font-size: 0.75rem;font-weight: bold;color: gray;margin: 0;">AISpera (2021.07 ~ 2021.11)</p>
+<div class="card-item">
+  <p class="card-title">배너 정보 수집 개선</p>
+  <p class="card-subtitle">AISpera (2021.07 ~ 2021.11)</p>
   <p>
     Lua 스크립트 및 패킷 캡처 도입으로 배너 정보 수집 정확도 향상<br>
     기존 방식으로 누락되던 포트 데이터 확보 가능<br>
@@ -202,9 +233,9 @@ Flask
 </div>
 
 <!-- 카드 12 -->
-<div style="width: calc(50% - 0.5rem); border: 1px solid #ccc; border-radius: 1rem; padding: 1rem;">
-  <p style="font-size: 1.15rem; color: #2b6cb0; font-weight: bold;margin:0;">수집 주기 단축 (멀티 프로세싱)</p>
-  <p style="font-size: 0.75rem;font-weight: bold;color: gray;margin: 0;">AISpera (2021.07 ~ 2021.11)</p>
+<div class="card-item">
+  <p class="card-title">수집 주기 단축 (멀티 프로세싱)</p>
+  <p class="card-subtitle">AISpera (2021.07 ~ 2021.11)</p>
   <p>
     Python 멀티프로세싱 도입으로 60일 소요 → 병렬 처리로 수집 시간 대폭 단축<br>
     자동화 테스트 + Slack 알림 시스템 구축으로 운영 효율성 향상<br>
