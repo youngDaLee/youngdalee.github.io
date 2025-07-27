@@ -1,7 +1,7 @@
 ---
 title: MongoDB 인덱스 - null 필드 처리
 author: youngDaLee
-date: 2025-07-27 05:13:00 +0900
+date: 2024-11-14 12:00:00 +0900
 categories: [DB]
 tags: [MongoDB,index]
 ---

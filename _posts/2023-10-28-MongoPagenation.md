@@ -1,7 +1,7 @@
 ---
 title: MongoDB Pagenation 성능 개선을 위한 전략
 author: youngDaLee
-date: 2025-07-27 05:12:00 +0900
+date: 2023-10-28 12:00:00 +0900
 categories: [DB]
 tags: [MongoDB,성능개선]
 ---
